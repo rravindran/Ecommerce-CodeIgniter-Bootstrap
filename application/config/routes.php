@@ -169,6 +169,7 @@ $route['^(\w{2})/(.*)$'] = '$2';
  * Admin Controllers Routes
  */
 // HOME / LOGIN
+
 $route['admin'] = "admin/home/login";
 // ECOMMERCE GROUP
 $route['admin/publish'] = "admin/ecommerce/publish";
