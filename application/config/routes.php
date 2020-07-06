@@ -52,6 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 $route['default_controller'] = 'home';
 
+
 // Load default conrtoller when have only currency from multilanguage
 $route['^(\w{2})$'] = $route['default_controller'];
 
