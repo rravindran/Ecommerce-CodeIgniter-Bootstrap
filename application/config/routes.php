@@ -161,6 +161,7 @@ $route['(:any)/(:any)_(:num)'] = "Vendor/viewProduct/$1/$3";
 $route['(\w{2})/(:any)/(:any)_(:num)'] = "Vendor/viewProduct/$2/$4";
 $route['vendor/changeOrderStatus'] = "vendor/orders/changeOrdersOrderStatus";
 
+
 // Site Multilanguage
 $route['^(\w{2})/(.*)$'] = '$2';
 
