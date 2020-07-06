@@ -50,6 +50,7 @@ class Blog extends MY_Controller
             show_404();
         }
         $data = array();
+		
         $head = array();
         $data['article'] = $this->Public_model->getOnePost($id);
         if ($data['article'] == null) {
