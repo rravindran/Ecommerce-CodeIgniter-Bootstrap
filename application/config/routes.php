@@ -52,6 +52,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  */
 $route['default_controller'] = 'home';
 
+
 // Load default conrtoller when have only currency from multilanguage
 $route['^(\w{2})$'] = $route['default_controller'];
 
@@ -160,6 +161,7 @@ $route['(:any)/(:any)_(:num)'] = "Vendor/viewProduct/$1/$3";
 $route['(\w{2})/(:any)/(:any)_(:num)'] = "Vendor/viewProduct/$2/$4";
 $route['vendor/changeOrderStatus'] = "vendor/orders/changeOrdersOrderStatus";
 
+
 // Site Multilanguage
 $route['^(\w{2})/(.*)$'] = '$2';
 
@@ -167,6 +169,7 @@ $route['^(\w{2})/(.*)$'] = '$2';
  * Admin Controllers Routes
  */
 // HOME / LOGIN
+
 $route['admin'] = "admin/home/login";
 // ECOMMERCE GROUP
 $route['admin/publish'] = "admin/ecommerce/publish";
