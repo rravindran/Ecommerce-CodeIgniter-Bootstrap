@@ -1,6 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
+
 <div class="container" id="blog">
     <div class="body">
         <div class="row bottom-30 eqHeight">
